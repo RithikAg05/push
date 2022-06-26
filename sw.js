@@ -18,7 +18,7 @@ self.addEventListener('push', function(e) {
 
 event.notification.close();
 
-event.waitUntill(
+event.waitUntil(
   clients.openWindow('https://www.honeywellforge.ai/')
 );
   });
